@@ -23,12 +23,15 @@ Predicted Outcome:
 Uruguay (52.4%)
 ```
 
-## ** Data Source**
+## **Data Source**
 Data is automatically downloaded from the public GitHub repository:
 
-International Football Results Dataset
+[International Football Results Dataset repo](https://github.com/martj42/international_results)
 
-```https://github.com/martj42/international_results```
+or the link is here below
+
+https://github.com/martj42/international_results
+
 
 | Dataset            | Description                            |
 | ------------------ | -------------------------------------- |
@@ -140,6 +143,7 @@ MATCH_WEIGHT = 4
 | `TARGET_DATE`   | Prediction date (`YYYY-MM-DD`)      |
 | `MATCH_NEUTRAL` | `True` if played at a neutral venue |
 | `MATCH_WEIGHT`  | Tournament importance (1-4)         |
+
 
 Tournament weights(MATCH_WEIGHT):
 ```bash
