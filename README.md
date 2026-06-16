@@ -50,7 +50,7 @@ https://github.com/martj42/international_results
 
 ## **Feature Engineering**
 
-1. **Tournament Weighting**
+1. **Tournament Weighting Features**
 
 Different tournaments receive different importance scores.
 
@@ -62,7 +62,8 @@ Different tournaments receive different importance scores.
 | Other Competitions      | 2      |
 | Friendly Matches        | 1      |
 
-2. **ELO Rating System**
+
+2. **ELO Rating System Features**
 
 An ELO rating system is implemented to measure team strength over time.
 Generated features:
@@ -107,6 +108,8 @@ h2h_n → Number of previous meetings
 h2h_home_winrate → Historical win rate
 h2h_home_gd → Historical average goal difference
 ```
+
+
 
 # How to Use
 
